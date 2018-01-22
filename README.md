@@ -25,10 +25,10 @@ The project is divided in 4 indipendent folder:
  * Regresion_tree_example: script used to run the tutorial script published by sci-kit leanr.
    *  [Decision Regression Tree](http://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html)
    
-Every folder are stand-alone, you have just to jump inside and run the script.
-The core part of the script is the initialization of the Decision Tree Regressor
-For example:
-regr_1 = DecisionTreeRegressor(max_depth=2,criterion="mse",splitter="best",min_samples_leaf=0.20)
+Every folder are stand-alone, you have just to jump inside and run the script.<br />
+The core part of the script is the initialization of the Decision Tree Regressor.<br/>
+For example:<br/>
+regr_1 = DecisionTreeRegressor(max_depth=2,criterion="mse",splitter="best",min_samples_leaf=0.20)<br/>
 
  
    
