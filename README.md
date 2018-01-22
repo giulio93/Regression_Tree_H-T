@@ -1,8 +1,9 @@
 # Regression_Tree_H-T
-Predict humidity and temperature in a room, using a regression tree trained taking as input daily forecast.
+Predict humidity and temperature in a room, using a regression tree trained taking as input daily forecast.<br />
+
 The project is divided in 4 indipendent folder:
 
- * Data_Scraper: scripts used to retrive information from forecast website and mydashboard where umidity
+ * Data_Scraper: scripts used to retrive information from forecast website and mydashboard where humidity
           and temperature of my room are stored.   
  * Regresion_1: script used to run the first experiment
    * input_train: data collected by the forecast scraper from Jan to Feb 2017
@@ -30,7 +31,15 @@ The core part of the script is the initialization of the Decision Tree Regressor
 For example:<br/>
 regr_1 = DecisionTreeRegressor(max_depth=2,criterion="mse",splitter="best",min_samples_leaf=0.20)<br/>
 
- 
+Try to play with this method in order to get different/better results, you can find a full explanationa about it in the link above. <br />
+
+That's pretty everything you need to know in order to get some understand this projects.
+I will let here a complete run of the projects documented unfortunately only in Italian, but i think you can have a sigth if you have understood the structure of the project that i have explaine above.
+
+[Italian Complete Run] (https://docs.google.com/document/d/1ukRpVLagxdrSSCTLWuBy2rVhjsfUj768p9I8OayYH0M/edit?usp=sharing)
    
-   
- 
+
+
+
+
+
