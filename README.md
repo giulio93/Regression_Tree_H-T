@@ -23,7 +23,7 @@ The project is divided in 4 indipendent folder:
    * label_test:  data collected by the dashboard scraper from Jan to March 2017 from sensor 1
    
  * Regresion_tree_example: script used to run the tutorial script published by sci-kit leanr.
-   *  [Named Link](http://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html)
+   *  [Decision Regression Tree](http://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html)
  
    
    
