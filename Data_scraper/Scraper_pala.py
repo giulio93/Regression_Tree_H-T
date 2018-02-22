@@ -23,8 +23,8 @@ br.set_cookiejar(cj)
 br.open("http://rimms.dyndns.org/rimms/index.php")
 
 br.select_form(nr=0)
-br.form['Uid'] = 'castelfranco'
-br.form['Pwd'] = 'castelfranco'
+br.form['Uid'] = '############'
+br.form['Pwd'] = '############'
 br.submit()
 
 
